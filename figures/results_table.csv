@@ -1,0 +1,13 @@
+model,RMSE,precision@5,recall@5,ndcg@5,coverage@5,users
+global mean,1.0404,,,,,586
+user mean,0.9593,,,,,586
+item mean,0.9697,0.0034,0.0007,0.0032,0.0033,586
+most popular,,0.071,0.0337,0.0806,0.0191,586
+item-CF (centred cosine),0.8663,0.0198,0.0026,0.0185,0.3693,586
+"item-CF (raw cosine, for contrast)",0.8939,0.0232,0.0048,0.0249,0.271,586
+content item-kNN (genres + tags),0.9298,0.0177,0.005,0.0161,0.1506,586
+SVD (k=5),0.9325,0.0775,0.0307,0.0848,0.0648,586
+hybrid (alpha=0.8),0.863,0.0235,0.0037,0.0235,0.3611,586
+"item-CF ranking variant (k=20, lambda=10.0)",0.9198,0.0655,0.0287,0.0696,0.2986,586
+"hybrid ranking variant (alpha=0.9, damped)",0.919,0.0648,0.0291,0.0724,0.3111,586
+content user-profile,,0.0137,0.0059,0.0142,0.3232,586

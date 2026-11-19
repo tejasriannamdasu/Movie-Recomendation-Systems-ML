@@ -1,0 +1,6 @@
+data/*.csv
+data/*.zip
+ml-latest-small.zip
+.venv/
+.ipynb_checkpoints/
+__pycache__/
